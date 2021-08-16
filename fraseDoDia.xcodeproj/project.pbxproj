@@ -16,6 +16,9 @@
 		D373CF2F26CB1660008F211A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D373CF2D26CB1660008F211A /* LaunchScreen.storyboard */; };
 		D373CF3A26CB1660008F211A /* fraseDoDiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373CF3926CB1660008F211A /* fraseDoDiaTests.swift */; };
 		D373CF4526CB1660008F211A /* fraseDoDiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373CF4426CB1660008F211A /* fraseDoDiaUITests.swift */; };
+		D373CF5526CB1894008F211A /* aspas-esquerda.png in Resources */ = {isa = PBXBuildFile; fileRef = D373CF5226CB1894008F211A /* aspas-esquerda.png */; };
+		D373CF5626CB1894008F211A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D373CF5326CB1894008F211A /* logo.png */; };
+		D373CF5726CB1894008F211A /* aspas-direita.png in Resources */ = {isa = PBXBuildFile; fileRef = D373CF5426CB1894008F211A /* aspas-direita.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		D373CF4026CB1660008F211A /* fraseDoDiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fraseDoDiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D373CF4426CB1660008F211A /* fraseDoDiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fraseDoDiaUITests.swift; sourceTree = "<group>"; };
 		D373CF4626CB1660008F211A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D373CF5226CB1894008F211A /* aspas-esquerda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aspas-esquerda.png"; sourceTree = "<group>"; };
+		D373CF5326CB1894008F211A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D373CF5426CB1894008F211A /* aspas-direita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aspas-direita.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				D373CF1F26CB165E008F211A /* AppDelegate.swift */,
+				D373CF5426CB1894008F211A /* aspas-direita.png */,
+				D373CF5226CB1894008F211A /* aspas-esquerda.png */,
+				D373CF5326CB1894008F211A /* logo.png */,
 				D373CF2126CB165E008F211A /* SceneDelegate.swift */,
 				D373CF2326CB165E008F211A /* ViewController.swift */,
 				D373CF2526CB165E008F211A /* Main.storyboard */,
@@ -234,9 +243,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D373CF5526CB1894008F211A /* aspas-esquerda.png in Resources */,
+				D373CF5626CB1894008F211A /* logo.png in Resources */,
 				D373CF2F26CB1660008F211A /* LaunchScreen.storyboard in Resources */,
 				D373CF2C26CB1660008F211A /* Assets.xcassets in Resources */,
 				D373CF2726CB165E008F211A /* Main.storyboard in Resources */,
+				D373CF5726CB1894008F211A /* aspas-direita.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
